@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'gather_urls.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'gather_urls (+http://www.yourdomain.com)'
+USER_AGENT = 'gather_urls (gmarson)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
