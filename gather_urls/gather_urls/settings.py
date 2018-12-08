@@ -13,7 +13,9 @@ BOT_NAME = 'gather_urls'
 
 SPIDER_MODULES = ['gather_urls.spiders']
 NEWSPIDER_MODULE = 'gather_urls.spiders'
-
+ITEM_PIPELINES = {
+    'gather_urls.pipelines.GatherUrlsPipeline':300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'gather_urls (gmarson)'
